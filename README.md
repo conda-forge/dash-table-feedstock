@@ -114,4 +114,5 @@ Feedstock Maintainers
 =====================
 
 * [@dkucharc](https://github.com/dkucharc/)
+* [@moorepants](https://github.com/moorepants/)
 
