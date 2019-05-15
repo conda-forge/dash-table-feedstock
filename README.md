@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About dash-table
 ================
 
@@ -18,8 +14,17 @@ Summary: A First-Class Interactive DataTable for Dash
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/dash-table-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/dash-table-feedstock)
+
+<table><tr>
+    
+    <td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2489&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/dash-table-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
