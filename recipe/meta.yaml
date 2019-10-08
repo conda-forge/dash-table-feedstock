@@ -1,7 +1,7 @@
 {% set name = "dash-table" %}
 {% set filename = "dash_table" %}
-{% set version = "4.3.0" %}
-{% set sha256 = "ca6855dcf95136f19e0ab273c48caf8a5529f2a614bbc5ae02c04e5d0284db33" %}
+{% set version = "4.4.0" %}
+{% set sha256 = "48f41475eb83bb975fffbedb682b4e178b6e1e4d6ac92a33ba10f8a75025fc0a" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 
 build:
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
 requirements:
