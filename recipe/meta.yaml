@@ -1,7 +1,7 @@
 {% set name = "dash-table" %}
 {% set filename = "dash_table" %}
-{% set version = "4.4.1" %}
-{% set sha256 = "cb933f1b5edfc8ea88cf6e3989ad9ff9c3d9e4b441a2423d170ae55b3dcf86bc" %}
+{% set version = "4.5.0" %}
+{% set sha256 = "8b8d0e3cc24bf444f9a01ec6b2f9bb359dd3710a3107ebb405183d1e63dfc74a" %}
 
 package:
   name: {{ name|lower }}
