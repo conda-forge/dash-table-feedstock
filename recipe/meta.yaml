@@ -1,7 +1,7 @@
 {% set name = "dash-table" %}
 {% set filename = "dash_table" %}
-{% set version = "4.6.0" %}
-{% set sha256 = "d30cd8f2212134a576c131f00d403fc6b5ef54579106178fc8d6309500539f07" %}
+{% set version = "4.6.1" %}
+{% set sha256 = "64905af3214b509a95769ba9dfc884677696c270a572ed06b52c57fdcf9d9c77" %}
 
 package:
   name: {{ name|lower }}
@@ -34,8 +34,8 @@ about:
   dev_url: https://github.com/plotly/dash-table
   license: MIT
   license_family: MIT
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
-  summary: 'A First-Class Interactive DataTable for Dash'
+  license_file: {{ environ["RECIPE_DIR"] }}/LICENSE
+  summary: A First-Class Interactive DataTable for Dash
 
 extra:
   recipe-maintainers:
