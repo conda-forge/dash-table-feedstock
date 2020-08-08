@@ -5,7 +5,7 @@ Home: https://dash.plot.ly/datatable
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A First-Class Interactive DataTable for Dash
 
