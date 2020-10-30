@@ -1,7 +1,7 @@
 {% set name = "dash-table" %}
 {% set filename = "dash_table" %}
-{% set version = "4.10.1" %}
-{% set sha256 = "1aa02180faef13434364286b60404d26164d1ce2779c765c9c52e6935991a4e9" %}
+{% set version = "4.11.0" %}
+{% set sha256 = "3170504a8626a9676b016c5ab456ab8c1fb1ea0206dcc2eddb8c4c6589216304" %}
 
 package:
   name: {{ name|lower }}
@@ -19,10 +19,10 @@ build:
 
 requirements:
   host:
-    - python
+    - python ==2.7.*|>=3.3
     - pip
   run:
-    - python
+    - python ==2.7.*|>=3.3
     - dash
 
 test:

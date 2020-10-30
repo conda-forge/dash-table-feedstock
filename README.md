@@ -5,11 +5,11 @@ Home: https://dash.plot.ly/datatable
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dash-table-feedstock/blob/master/LICENSE.txt)
 
 Summary: A First-Class Interactive DataTable for Dash
 
-
+Development: https://github.com/plotly/dash-table
 
 Current build status
 ====================
